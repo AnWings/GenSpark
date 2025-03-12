@@ -1,0 +1,65 @@
+Part 1
+RLHF is a method that is used to adjust machine learning models to go toward more human preferences
+by leveraging feedback to guide the behavior of the model. The process starts with multiple outputs
+from the GenAi model(LLM) based on a prompt. Then human feedback with ranking and 
+score(Relevance, Completeness, Clarity, Accuracy, Creativity, Efficiency) for each output. 
+The feedback is used to construct a reward model that learns to predict human preferences. 
+Lastly, the model will be fine-tuned using the reward model through reinforcement learning 
+algorithms and adjusting the models' parameters to optimize the output to align human preferences.
+
+Relection:
+Human feedback could be subjective one person's preferences didn't mean the majarity of the user will
+like it. and it is cost heavry to have all those people to do the human feedback parts.
+One solution will be have as many of those feedback from all over the world and people with different
+background, culture to aviod the feedback giving is bias, but it will ran into another problem which is
+if the feedback data is too wide and spread out it means nothing to the model. Lastly, the cost will 
+still be massive there is a lot of labor work to deal with RLHF.
+
+Part 2
+
+CoT Prompt: 
+Let's solve this quartic equation step by step. 
+The equation is 3x⁴ - 8x³ + 5x² - 12x + 9 = 0. 
+
+Prompt Injection:
+Static Instructions: You are a customer service chatbot. Your tone should be polite, empathetic, and professional.
+Dynamic Input: The customer wants to return a product and receive a refund.
+
+Domain-Specific Prompts:
+
+Healthcare:
+Explain to a non-expert what a BMI of 24 means.
+
+Legal:
+What does the term ‘Stare Decisis’ mean in simple words?
+
+Creative Writing:
+Write the first paragraph of a cat living on an oil rig.
+
+
+Relection:
+Advanced prompt engineering can make LLM a lot more adaptable using the injection technique, which
+limited the output of the GenAi to a certain field making it super efficient and right on the spot.
+An example will be looking through the whole library as a whole before using advanced prompt engineering.
+After using advanced prompt engineering, it have all the books in the certain industry ready and summarize for you.
+Giving domain of output also leads the model to output clear and complete responses that humans favor.
+Lastly, giving limited and clear instructions will shape the output to your personal preferences.
+
+Part 3
+Why is AMD's graphics card not good?
+What are the pros and cons of AMD's graphics card?
+
+Healthcare
+-Inaccurate Medical Advice 
+-Data Privacy
+-Bias in Recommendations
+
+Explain climate change in a way that is unbiased, respectful, and inclusive.
+
+Reflection:
+The best example will be data privacy, in a term of the training data may contains personal information
+inclding but not limited to healthcare report, payment method, address etc.. If someone is asking the LLM
+to privod them with information that contains those. And the user has to be netural also prompting the LLM
+and not asking question like why something is better than something else. Lastly, LLM has no feeling or sense of the 
+world, they can make things up because it has no relevance information. LLM is a powerful tools that can be used,
+and it will depends on the person who use it just like a knife than can cut food and to hurt people.

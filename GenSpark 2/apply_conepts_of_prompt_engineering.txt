@@ -1,0 +1,128 @@
+Part 1
+Generate a product description for Iphone 16 Pro Max
+1)As a smartphone reviewer, generate a product description for Iphone 16 Pro Max
+
+2)As a smartphone reviewer, generate a product description for Iphone 16 Pro Max following the example:
+  Cpu/Gpu: Cpu/Gpu of the phone
+  RAM : amount of RAM on the phone
+  screentype: screentype of the phone
+  refresh rate: refresh rate of the phone
+  Camera: 
+  &etc
+
+3)As a smartphone reviewer, generate a product description for Iphone 16 Pro Max in 2 paragraph
+  and use easy to understand words. Explaining the config of the phone and any new features.
+  Lastly, giving the price give a little feedback is it worth it or not.
+
+Reflection:
+Prompt optimization has a huge impact on the LLM, and giving it a role and direction makes it much easier to achieve 
+the context we are aiming for. Giving examples, format, and length of the output we wanted, lead the LLM outputs straight
+to the point. For the exercise we doing above give the model all of our goals and roles in the situation making a random 
+description for a phone nearly to become a script for a video. The same applies to all other tasks, for example, writing 
+an email to notify or request information or completion of a project. Simply ask the model to write you a working email
+that does it for you. As long as the instruction is clear and gives the right amount of task and context.
+
+Part 2
+1)Write a story about life.
+2)The idea is too wide and output might be randomly generate(lack of context/length, lack of role)
+3)As a story writer, write a story about life of a AI engineer in 500 words,
+  giving the full process of growth
+  the day to day life they have
+
+Life is a river, ever-flowing, never pausing, carving its path through the landscape of time. 
+It begins as a small spring, trickling down from the mountains of birth, innocent and unknowing. 
+As it winds its way through the valleys and plains, it grows, shaped by the rocks it encounters, 
+the storms it weathers, and the sunlight that nourishes it.
+In its early years, the river rushes forward with youthful energy, leaping over obstacles with ease. 
+There are moments of joy, laughter, and boundless curiosity. Every pebble is a discovery, every ripple a lesson. 
+But as it journeys on, it meets the trials of life—branches that block its way, 
+currents that pull it in directions it never anticipated.Some days, the river is calm, 
+reflecting the sky’s endless possibilities. Other days, it rages with the storms of heartbreak, loss, and uncertainty.
+Yet, no matter how turbulent or serene, it continues forward, never ceasing, always adapting. Along the way,
+it meets other rivers, merging paths, sharing experiences, and leaving marks upon one another.
+As it nears its destination, the river widens, its waters deep with wisdom. It slows, no longer rushing, 
+but embracing the journey it has undertaken. The moments that once seemed fleeting now hold profound significance—the friendships,
+the lessons, the love given and received. In the end, the river merges with the vast ocean, becoming one with something greater than itself.
+Life, like the river, is not about reaching a final destination but about the journey itself. 
+It is in the twists and turns, the struggles and triumphs, the quiet moments and roaring floods that true meaning is found.
+And when it finally reaches its end, it does not disappear—it becomes part of something eternal, its essence carried forward in the endless cycle of existence.
+
+Title: The Journey of an AI Engineer
+
+Ethan Chen had always been fascinated by technology. As a child, he tinkered with computers, amazed by how they processed information. 
+His passion led him to study computer science, where he discovered artificial intelligence. The moment he built his first machine-learning model, 
+he knew this was his path.
+
+The Growth Process
+Ethan’s journey wasn’t easy. He struggled with AI’s mathematical foundations—linear algebra, probability, and optimization. 
+He spent nights debugging neural networks and refining algorithms. Through internships and projects, 
+he gained experience with Python, TensorFlow, and cloud computing. After graduation, 
+he landed a junior AI engineer job at a tech startup. The first few months were overwhelming. 
+He collaborated with data scientists, software engineers, and product managers, translating research into scalable solutions.
+He realized AI wasn’t just about building models—it involved deploying them efficiently and ensuring continuous improvement.
+As he gained experience, he tackled projects like recommendation systems and fraud detection algorithms. 
+His curiosity led him to explore deep learning, NLP, and reinforcement learning. He kept upskilling through courses, research papers, and conferences.
+
+A Day in the Life of an AI Engineer
+Ethan’s day began early, checking emails and AI updates. Mornings were spent debugging models and running experiments. If a model underperformed, he adjusted hyperparameters or improved data preprocessing.
+Late mornings included team meetings. He worked with data engineers for high-quality training data and software developers for model deployment. Every decision balanced accuracy, efficiency, and scalability.
+Afternoons were for deep work—coding, optimizing algorithms, and researching new techniques. Some days, he focused on explainability, ensuring stakeholders understood model decisions.
+By late afternoon, he reviewed performance metrics. If a model drifted, he analyzed real-world feedback and retrained it. He prioritized ethical AI principles, addressing bias and fairness.
+Evenings were for learning—studying AI trends and mentoring junior engineers.
+
+The Endless Journey
+Ethan eventually became a lead AI engineer, guiding teams and shaping AI strategies. Yet, he knew AI was ever-evolving. Every challenge brought innovation, making his journey both demanding and rewarding.
+
+The new prompt give exactly what I ask for
+
+Evaluate the following prompt:
+"Describe a scientific concept in detail."
+
+What’s wrong with this prompt?
+lack of context and role
+
+Write a revised version using specific instructions and role-based guidance.
+You are a data scientist, the situation is you have to explain the concept of Supervised Learning
+to a person that is not techical at all. Use 150 words and simple language to explain
+Lastly, giving a example for better understanding.
+
+Reflection:
+Giving the wrong output to the wrong audiences, for example giving a 3 year old kid a lot of complex formulas instead of explaining things by pictures.
+Simply tell him what role he play and what target audiences it had.
+
+Part 3
+Input: Your role is a team member of a small team, write me a short email under 100 words to invite other coworkers to the teambuilding event on the weekend.
+Output:
+Subject: Join Us for a Team Building Event This Weekend!
+Hi Team,
+I hope you're all doing well! We’re organizing a fun team-building event this weekend, and we’d love for everyone to join. 
+It’s a great opportunity to relax, connect, and have some fun together outside of work.
+Date: [Insert Date]
+Time: [Insert Time]
+Location: [Insert Location]
+Please let me know if you can make it. We look forward to seeing you there!
+
+Best,
+[Your Name]
+
+Relevance: 5
+Completeness: 5
+Clarity: 5
+Accuracy:5 
+Creativity: 3
+Efficiency: 5
+
+Activity:
+Evaluate and improve the following prompt:
+"Generate a summary of this document."
+
+generate a summary in 200 words of this document on [perspetive]:
+[Giving the document]
+
+Reflection:
+evaluating prompt effectiveness directly improves productivity and reduces errors by ensuring the task is relevant, complete, and clear. 
+A well-crafted prompt focuses on the core objective, reducing confusion and guiding responses in the right direction. 
+It also ensures that all necessary information is provided, reducing the chances of missing key details and leading to more accurate results.
+By making sure the prompt is precise and clear, it helps avoid misinterpretation, saving time and effort. Additionally, 
+well-designed prompts can encourage creative solutions while maintaining focus on the task, improving both efficiency and quality of output.
+This ultimately streamlines workflows and boosts overall performance, making work or studies more productive and error-free.
